@@ -1,5 +1,6 @@
 package com.nigue.cl;
 
+import com.nigue.cl.execute.NativeHookCard;
 import javax.swing.SwingUtilities;
 
 public class App {
@@ -27,7 +28,7 @@ public class App {
 
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                new NativeHookDemo();
+                new NativeHookCard();
             }
         });
     }

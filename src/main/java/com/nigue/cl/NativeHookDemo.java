@@ -331,7 +331,7 @@ public class NativeHookDemo extends JFrame implements ActionListener, ItemListen
      *
      * @param e the native input event to display.
      */
-    private void displayEventInfo(final NativeInputEvent e) {
+    protected void displayEventInfo(final NativeInputEvent e) {
         txtEventInfo.append("\n" + e.paramString());
 
         try {
