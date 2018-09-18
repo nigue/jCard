@@ -21,6 +21,8 @@ public class CodeCard {
                 System.out.println("Encontrado: " + c.getName());
                 ChangeFile cf = new ChangeFile(c.getCard());
                 cf.execute();
+            } else {
+                System.out.println("No se pudo encontrar card con tecla: " + keyText);
             }
         }
     }

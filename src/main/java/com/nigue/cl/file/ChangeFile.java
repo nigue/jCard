@@ -12,7 +12,7 @@ public class ChangeFile {
 
     public ChangeFile(String toPut) {
         this.toPut = toPut;
-        this.fileCard = "/home/anibal/Juegos/jCard/card0.txt";
+        this.fileCard = System.getProperty("user.home") + "/AppData/Roaming/jCard/card0.txt";
     }
 
     public void execute() {
